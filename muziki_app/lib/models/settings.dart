@@ -6,9 +6,9 @@ class Settings extends BaseModel {
   @HiveField(3)
   String name;
   @HiveField(4, defaultValue: '')
-  String? darkMode;
+  bool? darkMode;
   @HiveField(5, defaultValue: '')
-  String? useSystemTheme;
+  bool? useSystemTheme;
   @HiveField(6, defaultValue: '')
   String? themeColor;
   @HiveField(7, defaultValue: '')
@@ -16,13 +16,13 @@ class Settings extends BaseModel {
   @HiveField(8, defaultValue: '')
   String? cardColor;
   @HiveField(9, defaultValue: '')
-  String? backGrad;
+  int? backGrad;
   @HiveField(10, defaultValue: '')
-  String? cardGrad;
+  int? cardGrad;
   @HiveField(11, defaultValue: '')
-  String? bottomGrad;
+  int? bottomGrad;
   @HiveField(12, defaultValue: '')
-  String? colorHue;
+  int? colorHue;
   Settings(
       {required id,
         required this.name,

@@ -1,6 +1,9 @@
 import 'package:hive/hive.dart';
 import 'package:xid/xid.dart';
+
+part 'models.g.dart';
 part 'settings.dart';
+
 
 
 
